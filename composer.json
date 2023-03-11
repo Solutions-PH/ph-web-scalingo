@@ -9,7 +9,7 @@
   ],
   "require": {
     "ext-imagick": "*",
-    "ext-pdo-dblib": "*"
+    "ext-pdo_dblib": "*"
   },
   "extra": {
     "paas": {
