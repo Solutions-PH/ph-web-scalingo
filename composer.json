@@ -1,0 +1,19 @@
+{
+  "name": "solutions-ph/php-web-scalingo",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Edouard",
+      "email": "edouard@7.fr"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "paas": {
+      "nginx-http-includes": [
+        "hosts/test1.ph.fr.conf",
+        "hosts/test2.ph.fr.conf"
+      ]
+    }
+  }
+}
