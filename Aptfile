@@ -1,2 +1,3 @@
 php-imagick
-php-sybase
+:repo:deb https://packages.microsoft.com/config/ubuntu/22.04/prod.list
+msodbcsql18
