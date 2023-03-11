@@ -7,7 +7,9 @@
       "email": "edouard@7.fr"
     }
   ],
-  "require": {},
+  "require": {
+    "ext-imagick": "*"
+  },
   "extra": {
     "paas": {
       "nginx-http-includes": [
