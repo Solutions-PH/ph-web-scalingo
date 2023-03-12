@@ -70,9 +70,16 @@ http {
     # modsecurity_rules_file "/app/vendor/nginx/conf/modsec-nginx.conf";
 
     server {
-        server_name localhost;
+        server_name test1.ph.fr;
+        root "/app/test1.ph.fr";
         listen 80;
+        charset utf-8;
+    }
 
+    server {
+        server_name test2.ph.fr;
+        root "/app/test2.ph.fr";
+        listen 80;
         charset utf-8;
     }
 
