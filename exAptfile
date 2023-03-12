@@ -1,0 +1,3 @@
+php-imagick
+:repo:deb https://packages.microsoft.com/ubuntu/22.04/prod jammy main
+msodbcsql18
