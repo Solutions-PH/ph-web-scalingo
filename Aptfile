@@ -1,4 +1,7 @@
+unixodbc
 unixodbc-dev
+odbcinst
 freetds-common
 freetds-dev
+tdsodbc
 php8.1-sybase
