@@ -11,7 +11,7 @@ phpinfo();
 use Medoo\Medoo;
 
 $medooObject = [
-    "database_type" => "mssql",
+    "database_type" => "sybase",
     "database_name" => "OSP_DATASTAT",
     "server" => "51.178.76.132",
     "username" => "edaubin",
