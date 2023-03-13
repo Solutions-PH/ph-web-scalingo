@@ -13,10 +13,10 @@ phpinfo();
 use Medoo\Medoo;
 
 $medooObject = [
-    "database_type" => "mssql",
+    "database_type" => "sqlsrv",
     "database_name" => "OSP_DATASTAT",
     "server" => "51.178.76.132",
-    "driver" => "FreeTDS",
+    "driver" => "dblib",
     "username" => "edaubin",
     "password" => "td5dakDN5u",
 ];
