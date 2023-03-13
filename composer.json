@@ -9,6 +9,7 @@
   ],
   "require": {
     "ext-imagick": "*",
+    "ext-freetds": "*",
     "ext-pdo_sqlsrv": "*",
     "catfan/medoo": "*"
   },
