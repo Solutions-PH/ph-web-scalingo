@@ -15,8 +15,7 @@
   "extra": {
     "paas": {
       "nginx-http-includes": [
-        "hosts/test1.ph.fr.conf",
-        "hosts/test2.ph.fr.conf"
+
       ]
     }
   }
