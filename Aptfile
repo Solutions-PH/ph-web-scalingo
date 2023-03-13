@@ -2,3 +2,4 @@ unixodbc-dev
 freetds-common
 freetds-dev
 php8.1-sybase
+php8.1-mssql
