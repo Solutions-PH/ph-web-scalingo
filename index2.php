@@ -15,6 +15,7 @@ $medooObject = [
     "database_name" => "OSP_DATASTAT",
     "server" => "51.178.76.132",
     "username" => "edaubin",
+    "driver" => "dblib",
     "password" => "td5dakDN5u",
 ];
 
