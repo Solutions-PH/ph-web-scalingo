@@ -10,6 +10,7 @@
   "require": {
     "ext-imagick": "*",
     "ext-pdo_sqlsrv": "*",
+    "ext-pdo_dblib": "*",
     "catfan/medoo": "*"
   },
   "extra": {
