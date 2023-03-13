@@ -6,6 +6,8 @@ error_reporting(E_ALL);
 
 phpinfo();
 
+use Medoo\Medoo;
+
 $medooObject = [
     "database_type" => "mssql",
     "database_name" => "OSP_DATASTAT",
