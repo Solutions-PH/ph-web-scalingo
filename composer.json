@@ -9,7 +9,7 @@
   ],
   "require": {
     "ext-imagick": "*",
-    "ext-sqlsrv": "*",
+    "ext-sybase": "*",
     "ext-pdo_sqlsrv": "*",
     "catfan/medoo": "*"
   },
