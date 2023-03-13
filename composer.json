@@ -9,8 +9,8 @@
   ],
   "require": {
     "ext-imagick": "*",
-    "ext-sqlsrv": "*",
-    "ext-pdo_sqlsrv": "*",
+    "ext-sqlsrv-5.10.1": "*",
+    "ext-pdo_sqlsrv-5.10.1": "*",
     "catfan/medoo": "*"
   },
   "extra": {
