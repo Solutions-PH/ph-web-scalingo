@@ -14,12 +14,10 @@ $medooObject = [
     "database_type" => "mssql",
     "database_name" => "OSP_DATASTAT",
     "server" => "51.178.76.132",
+    "driver" => "freetds",
     "username" => "edaubin",
     "password" => "td5dakDN5u",
 ];
-if ($_SERVER["SERVER_NAME"] != "atlas.test") {
-  //  $medooObject["driver"] = "dblib";
-}
 
 $myPDO = new \Medoo\Medoo($medooObject);
 
