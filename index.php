@@ -14,6 +14,7 @@ $medooObject = [
     "database_type" => "sybase",
     "database_name" => "OSP_DATASTAT",
     "server" => "51.178.76.132",
+    "driver" => "FreeTDS",
     "username" => "edaubin",
     "password" => "td5dakDN5u",
 ];
