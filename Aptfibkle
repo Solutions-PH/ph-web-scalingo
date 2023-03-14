@@ -4,4 +4,4 @@ odbcinst
 freetds-common
 freetds-dev
 tdsodbc
-php8.1-sybase
+php-sybase
