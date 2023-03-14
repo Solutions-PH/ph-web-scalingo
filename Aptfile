@@ -3,7 +3,7 @@ https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/u/unixodbc/odbcinst_2
 https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/u/unixodbc/odbcinst1debian2_2.3.7_amd64.deb
 https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/u/unixodbc/unixodbc_2.3.7_amd64.deb
 https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/u/unixodbc/unixodbc-dev_2.3.7_amd64.deb
-https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/m/msodbcsql18/msodbcsql18_18.2.1.1-1_arm64.deb
-https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/m/mssql-tools18/mssql-tools18_18.2.1.1-1_arm64.deb
+https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/m/msodbcsql17/msodbcsql17_17.10.2.1-1_amd64.deb
+https://packages.microsoft.com/ubuntu/22.04/prod/pool/main/m/mssql-tools/mssql-tools_17.10.1.1-1_amd64.deb
 freetds-common
 freetds-dev
