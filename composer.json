@@ -12,6 +12,9 @@
     "ext-pdo_sqlsrv": "*",
     "catfan/medoo": "*"
   },
+  "require-dev": {
+    "ext-sqlsrv": "*"
+  },
   "extra": {
     "paas": {
       "nginx-http-includes": [
