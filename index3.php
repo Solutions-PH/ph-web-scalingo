@@ -14,7 +14,7 @@ $medooObject = [
     "database_type" => "mssql",
     "database_name" => "OSP_DATASTAT",
     "server" => "51.178.76.132",
-    "driver" => "sqlsrv",
+    "driver" => "FreeTDS",
     "username" => "edaubin",
     "password" => "td5dakDN5u",
 ];
