@@ -119,13 +119,10 @@ echo "<pre>";
 
 print_R(PDO::getAvailableDrivers());
 
-$d = scandir("/app");
+$d = scandir("/app/.apt");
 print_R($d);
 
-$d = scandir("/");
-print_R($d);
-
-$d = scandir("../");
+$d = scandir("/opt");
 print_R($d);
 
 $serverName = "51.178.76.132\\sqlexpress"; //serverName\instanceName
