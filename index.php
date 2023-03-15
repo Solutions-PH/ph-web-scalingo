@@ -115,21 +115,18 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+echo "<pre>";
+
 print_R(PDO::getAvailableDrivers());
 
-$d = new RecDir("/app",false);
-echo "Path: " . $d->getRootPath() . "\n";
-while (false !== ($entry = $d->read())) {
-    echo $entry."\n";
-}
-$d->close();
+$d = scandir("/app");
+print_R($d);
 
-$d = new RecDir("/app/.apt/opt/microsoft/msodbcsql18/lib64/",false);
-echo "Path: " . $d->getRootPath() . "\n";
-while (false !== ($entry = $d->read())) {
-    echo $entry."\n";
-}
-$d->close();
+$d = scandir("/");
+print_R($d);
+
+$d = scandir("../");
+print_R($d);
 
 $serverName = "51.178.76.132\\sqlexpress"; //serverName\instanceName
 $connectionInfo = array( "Database"=>"OSP_DATASTAT", "UID"=>"edaubin", "PWD"=>"td5dakDN5u");
