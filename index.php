@@ -119,8 +119,10 @@ echo "<pre>";
 
 print_R(PDO::getAvailableDrivers());
 
-$d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/libmsodbcsql-18.2.so.1.1");
+$d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
 print_R($d);
+
+echo file_get_contents("/app/.apt/opt/microsoft/msodbcsql18/lib64/libmsodbcsql-18.2.so.1.1");
 
 $d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
 print_R($d);
