@@ -119,10 +119,10 @@ echo "<pre>";
 
 print_R(PDO::getAvailableDrivers());
 
-$d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
+$d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/libmsodbcsql-18.2.so.1.1");
 print_R($d);
 
-$d = scandir("/app/.apt/opt/microsoft/msodbcsql18");
+$d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
 print_R($d);
 
 $serverName = "51.178.76.132\\sqlexpress"; //serverName\instanceName
