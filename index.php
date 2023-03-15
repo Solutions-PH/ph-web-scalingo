@@ -125,29 +125,6 @@ print_R($d);
 $d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
 print_R($d);
 
-$serverName = "51.178.76.132\\ns3167091\OSPHAREA"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"OSP_DATASTAT", "UID"=>"edaubin", "PWD"=>"td5dakDN5u");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-
-if( $conn ) {
-    echo "Connection established.<br />";
-}else{
-    echo "Connection could not be established.<br />";
-    die( print_r( sqlsrv_errors(), true));
-}
-
-
-$serverName = "51.178.76.132\\OSPHAREA"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"OSP_DATASTAT", "UID"=>"edaubin", "PWD"=>"td5dakDN5u");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-
-if( $conn ) {
-    echo "Connection established.<br />";
-}else{
-    echo "Connection could not be established.<br />";
-    die( print_r( sqlsrv_errors(), true));
-}
-
 $serverName = "51.178.76.132"; //serverName\instanceName
 $connectionInfo = array( "Database"=>"OSP_DATASTAT", "UID"=>"edaubin", "PWD"=>"td5dakDN5u");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
