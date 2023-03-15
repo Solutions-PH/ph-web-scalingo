@@ -125,7 +125,7 @@ print_R($d);
 $d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
 print_R($d);
 
-$serverName = "//51.178.76.132\OSPHAREA"; //serverName\instanceName
+$serverName = "51.178.76.132\OSPHAREA"; //serverName\instanceName
 $connectionInfo = array( "Database"=>"OSP_DATASTAT", "UID"=>"edaubin", "PWD"=>"td5dakDN5u");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
