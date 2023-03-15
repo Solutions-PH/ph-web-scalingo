@@ -37,8 +37,17 @@ if( $conn ) {
     die( print_r( sqlsrv_errors(), true));
 }
 
-phpinfo();
-/*
+$sql = "SELECT TOP 10 * FROM ospharea_crm";
+
+$result = sqlsrv_query($conn, $sql);
+if($result === false) {
+    die(print_r(sqlsrv_errors(), true));
+}
+#Fetching Data by object
+while($row = sqlsrv_fetch_object($result)) {
+    print_r($row);
+}
+
 use Medoo\Medoo;
 
 $medooObject = [
@@ -57,5 +66,5 @@ echo "<pre>";
 print_r($response[0]);
 
 phpinfo();
-*/
+
 ?>
