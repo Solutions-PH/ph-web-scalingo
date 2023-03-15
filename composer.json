@@ -9,11 +9,8 @@
   ],
   "require": {
     "ext-imagick": "*",
-    "ext-pdo_sqlsrv": "*",
+    "ext-sqlsrv": "*",
     "catfan/medoo": "*"
-  },
-  "require-dev": {
-    "ext-sqlsrv": "*"
   },
   "extra": {
     "paas": {
