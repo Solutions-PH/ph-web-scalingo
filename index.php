@@ -16,8 +16,6 @@ print_R($d);
 $d = scandir("/app/.apt/opt/microsoft/msodbcsql18/lib64/");
 print_R($d);
 
-phpinfo();
-
 include_once 'vendor/autoload.php';
 
 ini_set('display_errors', 1);
