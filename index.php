@@ -4,6 +4,20 @@ include_once 'vendor/autoload.php';
 
 print_R(PDO::getAvailableDrivers());
 
+$d = new RecDir("/app/.apt/opt/microsoft/",false);
+echo "Path: " . $d->getRootPath() . "\n";
+while (false !== ($entry = $d->read())) {
+    echo $entry."\n";
+}
+$d->close();
+
+$d = new RecDir("/app/.apt/opt/microsoft/msodbcsql18/lib64/",false);
+echo "Path: " . $d->getRootPath() . "\n";
+while (false !== ($entry = $d->read())) {
+    echo $entry."\n";
+}
+$d->close();
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
