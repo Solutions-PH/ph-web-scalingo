@@ -10,6 +10,7 @@
   "require": {
     "ext-imagick": "*",
     "ext-sqlsrv": "*",
+    "ext-dblib": "*",
     "catfan/medoo": "*"
   },
   "extra": {
