@@ -2,9 +2,14 @@
 
 include_once 'vendor/autoload.php';
 
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 print_R(PDO::getAvailableDrivers());
 
-$d = new RecDir("/app/.apt/opt/microsoft/",false);
+$d = new RecDir("/app",false);
 echo "Path: " . $d->getRootPath() . "\n";
 while (false !== ($entry = $d->read())) {
     echo $entry."\n";
@@ -17,10 +22,6 @@ while (false !== ($entry = $d->read())) {
     echo $entry."\n";
 }
 $d->close();
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 $serverName = "51.178.76.132\\sqlexpress"; //serverName\instanceName
 $connectionInfo = array( "Database"=>"OSP_DATASTAT", "UID"=>"edaubin", "PWD"=>"td5dakDN5u");
